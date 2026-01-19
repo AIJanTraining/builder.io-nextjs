@@ -215,7 +215,12 @@
 }
 
 .accountSummaryCards .accountCard:first-child {
-  color: rgba(228, 22, 22, 1);
+  color: rgb(228, 22, 22);
+  background: rgba(204, 193, 57, 1);
+}
+
+.accountSummaryCards .accountCard:nth-child(2) {
+  background: rgba(221, 28, 28, 1);
 }
 
 .balanceAmount {
