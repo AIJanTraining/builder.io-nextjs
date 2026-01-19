@@ -214,6 +214,10 @@
   position: relative;
 }
 
+.accountSummaryCards .accountCard:first-child {
+  color: rgba(228, 22, 22, 1);
+}
+
 .balanceAmount {
   color: #545F71;
   font-family: Inter, -apple-system, Roboto, Helvetica, sans-serif;
