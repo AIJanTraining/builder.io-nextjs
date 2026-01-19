@@ -4,6 +4,10 @@
   background: #F9FAFB;
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 /* Top Navigation */
@@ -208,6 +212,15 @@
   width: 357px;
   min-height: 200px;
   position: relative;
+}
+
+.accountSummaryCards .accountCard:first-child {
+  color: rgb(228, 22, 22);
+  background: rgba(204, 193, 57, 1);
+}
+
+.accountSummaryCards .accountCard:nth-child(2) {
+  background: rgba(221, 28, 28, 1);
 }
 
 .balanceAmount {
